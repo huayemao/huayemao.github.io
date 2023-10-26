@@ -1,0 +1,9 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3],{3927:function(e,n,r){Promise.resolve().then(r.bind(r,3817))},3817:function(e,n,r){"use strict";r.r(n),r.d(n,{default:function(){return i}});var t=r(9268),s=r(5846),o=r.n(s);async function i(e){let{params:n}=e;return(0,t.jsx)("main",{className:"w-full px-8 py-4",children:(0,t.jsxs)("section",{className:"flex flex-col gap-2 w-36 items-start",children:[(0,t.jsx)(o(),{href:"/admin/posts/create",children:"创建文章"}),(0,t.jsx)(o(),{href:"/admin/tags",children:"标签管理"}),(0,t.jsx)("button",{onClick:()=>{fetch("/api/revalidate/index")},children:"刷新索引页"}),(0,t.jsx)("button",{onClick:()=>{fetch("/api/revalidate/posts")},children:"刷新文章详情页"})]})})}},3177:function(e,n,r){"use strict";/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var t=r(6006),s=Symbol.for("react.element"),o=Symbol.for("react.fragment"),i=Object.prototype.hasOwnProperty,c=t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,a={key:!0,ref:!0,__self:!0,__source:!0};function f(e,n,r){var t,o={},f=null,l=null;for(t in void 0!==r&&(f=""+r),void 0!==n.key&&(f=""+n.key),void 0!==n.ref&&(l=n.ref),n)i.call(n,t)&&!a.hasOwnProperty(t)&&(o[t]=n[t]);if(e&&e.defaultProps)for(t in n=e.defaultProps)void 0===o[t]&&(o[t]=n[t]);return{$$typeof:s,type:e,key:f,ref:l,props:o,_owner:c.current}}n.Fragment=o,n.jsx=f,n.jsxs=f},9268:function(e,n,r){"use strict";e.exports=r(3177)},5846:function(e,n,r){e.exports=r(7477)}},function(e){e.O(0,[477,253,769,744],function(){return e(e.s=3927)}),_N_E=e.O()}]);
